@@ -1,0 +1,76 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mediaPresentationDuration="PT3757S" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
+  <Period id="0">
+    <AdaptationSet contentType="video" frameRate="10000000/400000" id="0" maxHeight="360" maxWidth="640" par="16:9" subsegmentAlignment="true">
+      <ContentProtection xmlns:cenc="urn:mpeg:cenc:2013" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="a9fb9d3f-4e22-505c-b768-2af62878d851"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAANHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABQiDGEiMhrQS1wABplqsUjj3JWbBg==</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="3"></SupplementalProperty>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation bandwidth="190453" codecs="avc1.42c01e" height="180" id="0" mimeType="video/mp4" sar="1:1" width="320">
+        <BaseURL>https://gcp.blutv.com/5bd2f293ac08fb00066d2b88/outputs/67bd75d4edcb2600071e86c4/v3/dash-0/video-0-0.mp4</BaseURL>
+        <SegmentBase indexRange="1096-8651" timescale="10000000">
+          <Initialization range="0-1095"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="549079" codecs="avc1.4d401e" height="360" id="3" mimeType="video/mp4" sar="1:1" width="640">
+        <BaseURL>https://gcp.blutv.com/5bd2f293ac08fb00066d2b88/outputs/67bd75d4edcb2600071e86c4/v3/dash-0/video-0-1.mp4</BaseURL>
+        <SegmentBase indexRange="1130-8685" timescale="10000000">
+          <Initialization range="0-1129"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet contentType="audio" id="1" lang="tr" subsegmentAlignment="true">
+      <ContentProtection xmlns:cenc="urn:mpeg:cenc:2013" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="2fb3321a-a14d-5c73-8d22-114e87627cf8"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAANHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABQiDGEiMhrQS1wABplqsUjj3JWbBg==</cenc:pssh>
+      </ContentProtection>
+      <Representation audioSamplingRate="48000" bandwidth="192000" codecs="mp4a.40.2" id="1" mimeType="audio/mp4">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>https://gcp.blutv.com/5bd2f293ac08fb00066d2b88/outputs/67bd75d4edcb2600071e86c4/v3/dash-0/audio-0-0.mp4</BaseURL>
+        <SegmentBase indexRange="1004-8559" timescale="10000000">
+          <Initialization range="0-1003"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet contentType="audio" id="2" lang="ter" subsegmentAlignment="true">
+      <ContentProtection xmlns:cenc="urn:mpeg:cenc:2013" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="2fb3321a-a14d-5c73-8d22-114e87627cf8"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAANHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABQiDGEiMhrQS1wABplqsUjj3JWbBg==</cenc:pssh>
+      </ContentProtection>
+      <Representation audioSamplingRate="48000" bandwidth="192000" codecs="mp4a.40.2" id="2" mimeType="audio/mp4">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>https://gcp.blutv.com/5bd2f293ac08fb00066d2b88/outputs/67bd75d4edcb2600071e86c4/v3/dash-0/audio-0-1.mp4</BaseURL>
+        <SegmentBase indexRange="1004-8559" timescale="10000000">
+          <Initialization range="0-1003"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet contentType="video" frameRate="10000000/400000" id="3" maxHeight="1080" maxWidth="1920" par="16:9" subsegmentAlignment="true">
+      <ContentProtection xmlns:cenc="urn:mpeg:cenc:2013" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="6b875374-0def-59e2-a755-a34a65ff5e00"></ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAANHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABQiDGEiMhrQS1wABplqsUjj3JWbBg==</cenc:pssh>
+      </ContentProtection>
+      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="0"></SupplementalProperty>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation bandwidth="1238816" codecs="avc1.4d401f" height="540" id="4" mimeType="video/mp4" sar="1:1" width="960">
+        <BaseURL>https://gcp.blutv.com/5bd2f293ac08fb00066d2b88/outputs/67bd75d4edcb2600071e86c4/v3/dash-0/video-0-2.mp4</BaseURL>
+        <SegmentBase indexRange="1130-8685" timescale="10000000">
+          <Initialization range="0-1129"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="2317841" codecs="avc1.640028" height="720" id="5" mimeType="video/mp4" sar="1:1" width="1280">
+        <BaseURL>https://gcp.blutv.com/5bd2f293ac08fb00066d2b88/outputs/67bd75d4edcb2600071e86c4/v3/dash-0/video-0-3.mp4</BaseURL>
+        <SegmentBase indexRange="1136-8691" timescale="10000000">
+          <Initialization range="0-1135"></Initialization>
+        </SegmentBase>
+      </Representation>
+	  <Representation bandwidth="2317841" codecs="avc1.640028" height="1080" id="5" mimeType="video/mp4" sar="1:1" width="1920">
+        <BaseURL>https://gcp.blutv.com/5bd2f293ac08fb00066d2b88/outputs/67bd75d4edcb2600071e86c4/v3/dash-0/video-0-4.mp4</BaseURL>
+        <SegmentBase indexRange="1136-8691" timescale="10000000">
+          <Initialization range="0-1135"></Initialization>
+        </SegmentBase>
+      </Representation>
+      </AdaptationSet>
+  </Period>
+</MPD>
